@@ -1,0 +1,169 @@
+/* ===== ESTILOS GENERALES ===== */
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin:0;
+    background-color:#F8F5FF;
+    color:#1A1A2E;
+    line-height:1.6;
+}
+
+/* ===== ENCABEZADO ===== */
+
+header{
+    background: linear-gradient(135deg,#2D1B5E,#5C3A9E);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    margin:0;
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+/* ===== MENÚ ===== */
+
+nav{
+    background-color:#2D1B5E;
+    position:sticky;
+    top:0;
+}
+
+nav ul{
+    margin:0;
+    padding:15px;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#D4AF37;
+}
+
+/* ===== CONTENIDO ===== */
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+section{
+    background:white;
+    margin-bottom:30px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.10);
+}
+
+section h2{
+    color:#2D1B5E;
+}
+
+img{
+    width:100%;
+    max-width:700px;
+    border-radius:10px;
+    display:block;
+    margin:auto;
+}
+
+/* ===== TABLA ===== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background-color:#5C3A9E;
+    color:white;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background-color:#F8F5FF;
+}
+
+/* ===== VIDEO ===== */
+
+iframe{
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+
+/* ===== FORMULARIO ===== */
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+button{
+    background-color:#C96490;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background-color:#b1527b;
+}
+
+/* ===== PIE DE PÁGINA ===== */
+
+footer{
+    background-color:#2D1B5E;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* ===== LOGO ===== */
+
+.logo{
+    width:180px;
+    display:block;
+    margin:0 auto 15px auto;
+}
+
+/* ===== EFECTOS ===== */
+
+section:hover{
+    transform:translateY(-3px);
+    transition:.3s;
+}
+
+h1{
+    color:white;
+}
